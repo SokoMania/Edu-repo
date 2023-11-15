@@ -1,11 +1,8 @@
-.row {
-    width: 100%;
-}
-
-.col12{
+.row{
     width: 100%;
 }
 .main_text{
+    width: 100%;
     font-size:50px;
     text-align: center;
     margin-bottom: 22px;
@@ -14,28 +11,35 @@
     float: right;
     border: 2px solid black;
     display: block;
+    width: 80px;
+    text-align: center;
 }
 .span_text_1{
-    background-color: #F0A30A;
+    background-color: orange;
 }
 .span_text_2{
-    background-color: #F0A30A;
+    background-color: maroon;
+    color:white;
 }
 .span_text_3{
-    background-color: #F0A30A;
+    background-color: pink;
 }
 .block{
-    background-color:#D5E8D4;
-    margin-left:20px;
-    margin-right:20px;
-    margin-bottom:10px;
+    background-color:lightblue;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:20px;
     border: 2px solid black;
-}  
+} 
 .block p{
     padding: 20px;
-  }
-   /* Large devices */
-   @media (min-width: 992px) {
+}
+
+
+
+
+/* Large devices */
+@media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
    .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -119,6 +123,7 @@
     .col-md-12 {
     width: 100%;
     }
+}
     /* Small devices */
    @media (max-width: 768px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
@@ -161,5 +166,4 @@
     .col-sm-12 {
     width: 100%;
     }
-   }
 }
