@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+*{
+    margin: 0;
+}
+
+#navigation{
+    background-color: rgb(81, 81, 81);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+#main{
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+
+.bottom-center{
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    color: white;
+    font-family: 'Ephesis', cursive;
+}
+
+.image{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+.logo{
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.text_button{
+    font-size: medium;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo_button, .text_button{
+    background:none;
+    border: 0;
+    border-radius: 6px;
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo_button:hover, .text_button:hover{
+    background-color:darkgray;
+    opacity: 70%;
+}
+
+/* small devices */
+@media (max-width: 768px) {
+    .bottom-center{font-size: 40px;}
+
+    .col-sm-3 {
+        flex-basis: 25%;
+    }
+
+    .col-sm-4 {
+        flex-basis: 33.33%;
+    }
+
+    .col-sm-6 {
+        flex-basis: 50%;
+    }
+
+    .col-sm-8 {
+        flex-basis: 66.66%;
+    }
+
+    .col-sm-9 {
+        flex-basis: 75%;
+    }
+
+    .col-sm-12 {
+        flex-basis: 100%;
+    }
+}
+
+/* medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+    .bottom-center{font-size: 50px;}
+       
+    .col-md-3 {
+        flex-basis: 25%;
+    }
+
+    .col-md-4 {
+        flex-basis: 33.33%;
+    }
+
+    .col-md-6 {
+        flex-basis: 50%;
+    }
+
+    .col-md-8 {
+        flex-basis: 66.66%;
+    }
+
+    .col-md-9 {
+        flex-basis: 75%;
+    }
+
+    .col-md-12 {
+        flex-basis: 100%;
+    }
+}
+
+/* large devices */
+@media (min-width: 992px) {
+    .bottom-center{font-size: 70px;}
+
+    .col-lg-3 {
+        flex-basis: 25%;
+    }
+
+    .col-lg-4 {
+        flex-basis: 33.33%;
+    }
+
+    .col-lg-6 {
+        flex-basis: 50%;
+    }
+
+    .col-lg-8 {
+        flex-basis: 66.66%;
+    }
+
+    .col-lg-9 {
+        flex-basis: 75%;
+    }
+
+    .col-lg-12 {
+        flex-basis: 100%;
+    }
+}
